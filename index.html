@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nowoczesna Strona</title>
+
+  <!-- Link do pliku CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Nawigacja -->
+  <nav>
+    <ul>
+      <li><a href="#">Start</a></li>
+      <li><a href="#" id="linkAbout">O nas</a></li>
+      <li><a href="#" id="linkContact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- Kontakt info - ukryte na start -->
+  <div id="contactInfo">
+    <strong>Nasz Email:</strong> <a href="mailto:kevinkondracki552@gmail.com">kevinkondracki552@gmail.com</a><br>
+    <strong>Nasz GitHub:</strong> <a href="https://github.com/kevincode04" target="_blank">https://github.com/kevincode04</a>
+  </div>
+
+  <!-- Info o twórcy -->
+  <div id="creatorInfo">
+    <strong>Twórca strony:</strong> KevinCode04<br>
+    Email: kevinkondracki552@gmail.com<br>
+    GitHub: <a href="https://github.com/kevincode04" target="_blank">kevincode04</a>
+  </div>
+
+  <!-- Nagłówek -->
+  <header data-aos="fade-down">
+    🌐 Witamy w Nowoczesnej Sieci
+  </header>
+
+  <!-- Główna treść -->
+  <main>
+    <section data-aos="fade-up">
+      <h2>Dlaczego właśnie my?</h2>
+      <p>
+        Tworzymy nowoczesne i responsywne strony internetowe, które przyciągają uwagę, budują zaufanie i działają na wszystkich urządzeniach. Stawiamy na przejrzysty design, szybkie ładowanie i intuicyjną obsługę. Z nami Twoja marka zyska profesjonalny wizerunek online.
+      </p>
+    </section>
+
+    <section data-aos="zoom-in">
+      <h2>Nasze usługi</h2>
+      <div class="cards">
+        <div class="card">🌐 Projektowanie stron</div>
+        <div class="card">📱 Aplikacje mobilne</div>
+        <div class="card">🚀 Optymalizacja SEO</div>
+      </div>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2>Kontakt</h2>
+      <form id="contactForm">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="button">Wyślij</button>
+        <p id="formMessage" style="display:none; color: green; margin-top: 10px;"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Stopka -->
+  <footer data-aos="fade-up" data-aos-once="true">
+    <div>© 2025 TwojaFirma. Wszelkie prawa zastrzeżone.</div>
+    <div class="social-icons">
+      <a href="mailto:kevinkondracki552@gmail.com">📧</a>
+      <a href="https://github.com/kevincode04" target="_blank">💻</a>
+    </div>
+  </footer>
+
+  <!-- Skrypty -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

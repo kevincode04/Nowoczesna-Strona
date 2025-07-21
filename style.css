@@ -1,0 +1,167 @@
+/* === RESET & BODY === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* === NAVIGATION === */
+nav {
+  background-color: #34495e;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #1abc9c;
+}
+
+/* === HEADER === */
+header {
+  background: #1abc9c;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* === MAIN CONTENT === */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffffee;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+h2 {
+  color: #2980b9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+p {
+  text-align: center;
+}
+
+/* === SERVICES === */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 260px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* === FORMULARZ === */
+form {
+  background: #ecf0f1;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+form label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #8e44ad;
+}
+
+/* === TWÓRCA === */
+#creatorInfo {
+  background: #dff9fb;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  display: none;
+}
+#creatorInfo a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+/* === KONTAKT INFO === */
+#contactInfo {
+  background: #dff9fb;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  display: none;
+  font-weight: 600;
+}
+#contactInfo a {
+  color: #0984e3;
+  text-decoration: none;
+}
+
+/* === FOOTER === */
+footer {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.social-icons {
+  margin-top: 15px;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #1abc9c;
+}
